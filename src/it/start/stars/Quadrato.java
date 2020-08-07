@@ -11,8 +11,8 @@ public class Quadrato {
 		System.out.println("inserisci ampiezza lato");
 		n=sc.nextInt();
 		
-		for(int i=0;i<n;i++) {
-			for(int j=0;j<n;j++) {
+		for(int i=0;i<n;i++) {   // ciclo per scandire le righe
+			for(int j=0;j<n;j++) {  // ciclo per scandire le colonne
 				System.out.print("* ");
 			}
 			System.out.println("");
